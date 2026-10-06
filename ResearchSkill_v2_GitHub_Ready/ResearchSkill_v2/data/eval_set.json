@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "category": "networking",
+    "question": "What is the main purpose of a firewall in a computer network?",
+    "required_facts": [
+      "firewall",
+      "unauthorized",
+      "traffic"
+    ],
+    "expected_keywords": [
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "hardware",
+    "question": "What is one important difference between RAM and SSD storage?",
+    "required_facts": [
+      "ram",
+      "temporary"
+    ],
+    "expected_keywords": [
+      "ssd",
+      "storage"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "cybersecurity",
+    "question": "A student says HTTPS makes a website completely safe from every cyberattack. Is that correct?",
+    "required_facts": [
+      "not",
+      "completely",
+      "safe"
+    ],
+    "expected_keywords": [
+      "https",
+      "encryption",
+      "attack"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "cybersecurity",
+    "question": "Why do strong passwords and multi-factor authentication together provide better account protection than a password alone?",
+    "required_facts": [
+      "password",
+      "second",
+      "factor"
+    ],
+    "expected_keywords": [
+      "security",
+      "account"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "ai",
+    "question": "Can an AI model guarantee that every answer it gives is true? Explain why or why not.",
+    "required_facts": [
+      "cannot",
+      "guarantee"
+    ],
+    "expected_keywords": [
+      "hallucination",
+      "error",
+      "uncertain"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "programming",
+    "question": "What is the purpose of a loop in programming?",
+    "required_facts": [
+      "repeat",
+      "code"
+    ],
+    "expected_keywords": [
+      "iteration",
+      "condition"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "databases",
+    "question": "What is a primary key in a relational database?",
+    "required_facts": [
+      "unique",
+      "row"
+    ],
+    "expected_keywords": [
+      "identifier",
+      "table"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "web",
+    "question": "What is the difference between HTTP and HTTPS?",
+    "required_facts": [
+      "http",
+      "https"
+    ],
+    "expected_keywords": [
+      "encryption",
+      "secure"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "operating_systems",
+    "question": "What is the role of an operating system?",
+    "required_facts": [
+      "manage",
+      "hardware"
+    ],
+    "expected_keywords": [
+      "software",
+      "resources"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "cloud",
+    "question": "What is cloud computing in simple terms?",
+    "required_facts": [
+      "internet",
+      "computing"
+    ],
+    "expected_keywords": [
+      "servers",
+      "resources"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "data_science",
+    "question": "What is the difference between classification and regression in machine learning?",
+    "required_facts": [
+      "classification",
+      "categories"
+    ],
+    "expected_keywords": [
+      "regression",
+      "numeric"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "machine_learning",
+    "question": "Why is a training set used in machine learning?",
+    "required_facts": [
+      "train",
+      "model"
+    ],
+    "expected_keywords": [
+      "data",
+      "patterns"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "machine_learning",
+    "question": "What is overfitting?",
+    "required_facts": [
+      "training",
+      "unseen"
+    ],
+    "expected_keywords": [
+      "generalize",
+      "model"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "ai",
+    "question": "Why can adding more steps to an AI agent sometimes make it slower without improving the answer?",
+    "required_facts": [
+      "steps",
+      "slower"
+    ],
+    "expected_keywords": [
+      "overhead",
+      "unnecessary"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "research",
+    "question": "Why should a research answer distinguish evidence from inference?",
+    "required_facts": [
+      "evidence",
+      "inference"
+    ],
+    "expected_keywords": [
+      "claim",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "research",
+    "question": "What is a primary source?",
+    "required_facts": [
+      "original",
+      "source"
+    ],
+    "expected_keywords": [
+      "firsthand",
+      "evidence"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "statistics",
+    "question": "What does the mean represent in a dataset?",
+    "required_facts": [
+      "average",
+      "values"
+    ],
+    "expected_keywords": [
+      "sum",
+      "number"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "statistics",
+    "question": "Why can an outlier strongly affect the mean?",
+    "required_facts": [
+      "outlier",
+      "mean"
+    ],
+    "expected_keywords": [
+      "extreme",
+      "average"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "economics",
+    "question": "What generally happens to quantity demanded when price rises, all else equal?",
+    "required_facts": [
+      "demanded",
+      "falls"
+    ],
+    "expected_keywords": [
+      "price",
+      "demand"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "economics",
+    "question": "What is inflation?",
+    "required_facts": [
+      "general",
+      "prices"
+    ],
+    "expected_keywords": [
+      "rise",
+      "purchasing"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "business",
+    "question": "What is the purpose of a SWOT analysis?",
+    "required_facts": [
+      "strengths",
+      "weaknesses"
+    ],
+    "expected_keywords": [
+      "opportunities",
+      "threats"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "project_management",
+    "question": "What is a project milestone?",
+    "required_facts": [
+      "important",
+      "point"
+    ],
+    "expected_keywords": [
+      "progress",
+      "deadline"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "communication",
+    "question": "Why is defining the audience important when writing a technical explanation?",
+    "required_facts": [
+      "audience",
+      "explanation"
+    ],
+    "expected_keywords": [
+      "language",
+      "detail"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "fact_checking",
+    "question": "If a claim has no supporting evidence in the provided material, what should a careful AI assistant do?",
+    "required_facts": [
+      "not",
+      "claim"
+    ],
+    "expected_keywords": [
+      "evidence",
+      "uncertain"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "fact_checking",
+    "question": "Why is a source date important when answering questions about current events?",
+    "required_facts": [
+      "date",
+      "important"
+    ],
+    "expected_keywords": [
+      "current",
+      "outdated"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "cybersecurity",
+    "question": "What is phishing?",
+    "required_facts": [
+      "deceptive",
+      "message"
+    ],
+    "expected_keywords": [
+      "credentials",
+      "link"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "cybersecurity",
+    "question": "What is the principle of least privilege?",
+    "required_facts": [
+      "minimum",
+      "access"
+    ],
+    "expected_keywords": [
+      "permissions",
+      "necessary"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "software",
+    "question": "What is version control used for?",
+    "required_facts": [
+      "changes",
+      "code"
+    ],
+    "expected_keywords": [
+      "history",
+      "collaboration"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "software",
+    "question": "Why are automated tests useful in software projects?",
+    "required_facts": [
+      "test",
+      "bugs"
+    ],
+    "expected_keywords": [
+      "regression",
+      "confidence"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "ai",
+    "question": "What is a useful reason to compare an AI agent with and without a skill?",
+    "required_facts": [
+      "compare",
+      "skill"
+    ],
+    "expected_keywords": [
+      "baseline",
+      "improvement"
+    ]
+  }
+]
